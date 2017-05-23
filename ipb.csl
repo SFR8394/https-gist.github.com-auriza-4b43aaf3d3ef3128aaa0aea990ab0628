@@ -22,7 +22,7 @@
     <updated>2016-06-02T00:09:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-  <locale xmlns="http://purl.org/net/xbiblio/csl" version="1.0" xml:lang="id-ID">
+  <locale xmlns="http://purl.org/net/xbiblio/csl" xml:lang="id-ID">
     <style-options punctuation-in-quote="true"/>
     <date form="text">
       <date-part name="day" suffix=" "/>
@@ -496,7 +496,7 @@
             <text variable="original-title" font-style="italic" prefix=" Terjemahan dari: " suffix="."/>
             <text variable="note" prefix=" Ed ke-" suffix="."/>
           </if>
-          <else-if type="chapter paper-conference entry-dictionary entry-encyclopedia inproceeding proceeding" match="any">
+          <else-if type="chapter paper-conference entry-dictionary entry-encyclopedia" match="any">
             <group prefix=" " delimiter=" " suffix=".">
               <group delimiter=" ">
                 <text term="in" text-case="capitalize-first" suffix=":"/>
