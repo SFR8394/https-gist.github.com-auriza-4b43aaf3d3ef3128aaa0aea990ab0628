@@ -372,17 +372,7 @@
   <macro name="publisher">
     <group delimiter=": ">
       <text variable="publisher-place"/>
-      <choose>
-        <if match="none" variable="publisher-place">
-          <text value="[tempat tidak diketahui]"/>
-        </if>
-      </choose>
       <text variable="publisher" suffix="."/>
-      <choose>
-        <if match="none" variable="publisher">
-          <text value="[penerbit tidak diketahui]" suffix="."/>
-        </if>
-      </choose>
     </group>
   </macro>
   <macro name="pages">
@@ -501,7 +491,7 @@
               <group delimiter=" ">
                 <text term="in" text-case="capitalize-first" suffix=":"/>
                 <text macro="editor" suffix="."/>
-                <text variable="container-title" text-case="title" font-style="italic"/>
+                <text variable="container-title" text-case="title" font-style="italic" suffix="."/>
                     <choose>
                       <if match="any" variable="accessed">
                         <text term="internet" prefix="[" suffix="]"/>
@@ -513,11 +503,6 @@
               <group suffix="." delimiter=". ">
                 <text variable="event" suffix=";" font-style="italic"/>
                 <text variable="event-place" suffix="."/>
-                    <choose>
-                        <if match="none" variable="event-place">
-                            <text value="[Waktu dan tempat pertemuan tidak diketahui]"/>
-                        </if>
-                    </choose>
                 <text macro="publisher"/>
                 <text prefix=" " macro="collection"/>
                 <text macro="pages"/>
