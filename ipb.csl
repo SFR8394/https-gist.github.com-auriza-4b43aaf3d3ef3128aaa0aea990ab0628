@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="id-ID">
   <info>
-    <title>Institut Pertanian Bogor</title>
-    <title-short>IPB</title-short>
-    <id>http://www.zotero.org/styles/pedoman-penulisan-karya-ilmiah-institut-pertanian-bogor</id>
-    <link href="http://www.zotero.org/styles/pedoman-penulisan-karya-ilmiah-institut-pertanian-bogor" rel="self"/>
-    <link href="apps.cs.ipb.ac.id/media/ppki_iii.pdf" rel="documentation"/>
-    <link href="ppki.ipb.ac.id" rel="documentation"/>
+    <title>Pedoman Penulisan Karya Ilmiah Institut Pertanian Bogor Edisi ke-3</title>
+    <title-short>PPKI IPB 3e</title-short>
+    <id>http://www.zotero.org/styles/ppki-ipb-3e</id>
+    <link href="http://ppki.staff.ipb.ac.id/unduhan/" rel="documentation"/>
+    <link href="https://drive.google.com/file/d/0B0YEuQotqd_BQVpkR0lHNHctSHM/view" rel="documentation"/>
+    <author>
+      <name>Auriza Rahmad Akbar</name>
+      <email>auriza.akbar@gmail.com</email>
+    </author>
     <author>
       <name>M. Rachmatarramadhan</name>
       <email>rachmatarramadhan@gmail.com</email>
     </author>
-    <contributor>
-      <name>Auriza Rahmad Akbar</name>
-      <email>auriza.akbar@gmail.com</email>
-    </contributor>
 
     <category citation-format="author-date"/>
     <category field="science"/>
