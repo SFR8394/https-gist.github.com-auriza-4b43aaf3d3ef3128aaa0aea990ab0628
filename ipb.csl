@@ -14,7 +14,6 @@
       <name>M. Rachmatarramadhan</name>
       <email>rachmatarramadhan@gmail.com</email>
     </author>
-
     <category citation-format="author-date"/>
     <category field="science"/>
     <summary>IPB PPKI 3 style, Name-Year system: author-date in text, sorted in alphabetical order by author.</summary>
@@ -80,7 +79,7 @@
       <term name="close-quote">”</term>
       <term name="open-inner-quote">‘</term>
       <term name="close-inner-quote">’</term>
-      <term name="page-range-delimiter">–</term>
+      <term name="page-range-delimiter">&#8211;</term>
       <term name="ordinal"/>
       <term name="ordinal-01"/>
       <term name="ordinal-02"/>
@@ -491,11 +490,11 @@
                 <text term="in" text-case="capitalize-first" suffix=":"/>
                 <text macro="editor" suffix="."/>
                 <text variable="container-title" text-case="title" font-style="italic" suffix="."/>
-                    <choose>
-                      <if match="any" variable="accessed">
-                        <text term="internet" prefix="[" suffix="]"/>
-                      </if>
-                    </choose>
+                <choose>
+                  <if match="any" variable="accessed">
+                    <text term="internet" prefix="[" suffix="]"/>
+                  </if>
+                </choose>
               </group>
               <text variable="volume" prefix="Vol. " suffix="."/>
               <text macro="edition"/>
